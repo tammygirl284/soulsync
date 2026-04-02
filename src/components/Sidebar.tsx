@@ -19,6 +19,7 @@ const NAV = [
   { section: "AI", items: [
     { href: "/brain",     label: "Brain"          },
     { href: "/my-ai",     label: "My AI"          },
+    { href: "/memory",    label: "Anne Memory"    },
     { href: "/tools",     label: "Tools Generator"},
     { href: "/prompt",    label: "System Prompt"  },
     { href: "/settings",  label: "Settings"       },
