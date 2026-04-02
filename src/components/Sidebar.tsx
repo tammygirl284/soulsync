@@ -14,6 +14,7 @@ const NAV = [
     { href: "/actions",   label: "Action Items"   },
     { href: "/sessions",  label: "Sessions"       },
     { href: "/people",    label: "People"         },
+    { href: "/listener",  label: "Listener"       },
   ]},
   { section: "AI", items: [
     { href: "/brain",     label: "Brain"          },

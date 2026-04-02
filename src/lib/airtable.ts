@@ -8,7 +8,8 @@ export const TABLES = {
   actionItems:  "Action Items",
   sessions:     "Sessions",
   people:       "People",
-  observations: "Observations",
+  observations:   "Observations",
+  messageBuffer:  "Message Buffer",
 } as const;
 
 export type TableName = keyof typeof TABLES;
@@ -133,6 +134,14 @@ export interface PersonFields {
   Domain?:       string;
   Relationship?: string;
   Notes?:        string;
+}
+
+export interface MessageBufferFields {
+  Message?:   string;
+  Response?:  string;
+  Timestamp?: string;
+  "Chat ID"?: string;
+  Logged?:    boolean;
 }
 
 export interface ObservationFields {
